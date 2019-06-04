@@ -1,11 +1,11 @@
 package com.moxiaowei.map.mapdemo;
 
-import java.util.List;
+import static com.moxiaowei.map.mapdemo.Color.WHITE;
 
 public class MapItem {
 
     int num;
-    Color color = Color.WHITE;
+    Color color = WHITE;
     int d = 0;
     MapItem pro = null;
 
